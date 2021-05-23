@@ -217,3 +217,8 @@ salary=$(( $empHrs * $wagePerHour ))
 	((days++))
 done
 }
+days=1
+empHrs=0
+getWorkHours $days $empHrs
+echo "total Salary = $totalSalary"
+echo "working hours = " $empHrs
