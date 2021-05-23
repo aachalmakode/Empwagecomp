@@ -83,3 +83,15 @@ do
 	totalSalary=$(( $totalSalary + $salary ))
 	((days++))
 done
+echo "total Salary = $totalSalary"
+
+isFullTimeEmp=1;
+isPartTimeEmp=2;
+
+wagePerHour=20;
+salary=0;
+totalSalary=0;
+
+empName=emp
+
+echo "calculate wages for a Month"
